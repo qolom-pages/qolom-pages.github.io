@@ -46,13 +46,19 @@ header {
 		display: block;
 	}
 	
-	.menu-drop:hover .menu {
+	.menu-drop:hover .menu, .menu-drop:active .menu {
 	  cursor: pointer;
 	  display: block;
 	}
 
 }
 
+@media(hover: hover) and (pointer: fine) {
+    .menu-drop:hover .menu, .menu-drop:active .menu {
+	  cursor: pointer;
+	  display: block;
+	}
+}
 
 p {
 	line-height: 1.4;
