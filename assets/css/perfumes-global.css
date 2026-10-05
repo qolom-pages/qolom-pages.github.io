@@ -72,6 +72,13 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 750px) {
+	.pqr-toggle-div {
+		padding-bottom: 2%;
+		font-size: 1rem;
+	}
+}
+
 table {
   border-collapse: collapse;
 	font-size: 0.5rem;
