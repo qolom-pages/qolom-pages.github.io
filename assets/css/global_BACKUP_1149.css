@@ -49,11 +49,23 @@ header {
 	
 	
 	
+<<<<<<< HEAD
+	.menu-drop:hover .menu, .menu-drop:active .menu {
+=======
 	.menu-drop:hover .menu {
 	  cursor: pointer;
+>>>>>>> 099361cd8ab720eb9da272e800c2821fa363d4ac
 	  display: block;
+	  cursor: pointer;
 	}
 
+}
+
+@media(hover: hover) and (pointer: fine) {
+    .menu-drop:hover .menu, .menu-drop:active .menu {
+	  display: block;
+	  cursor: pointer;
+	}
 }
 
 p {

@@ -50,7 +50,6 @@ header {
 	
 	
 	.menu-drop:hover .menu {
-	  cursor: pointer;
 	  display: block;
 	}
 
