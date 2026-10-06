@@ -14,9 +14,13 @@ header {
 	margin: auto;
 }
 
-.menu-checkbox, input {
+.menu-checkbox {
 	padding: 2% 0%;
 	font-size: 1.1rem;
+	display: none;
+}
+
+#menu-checkbox {
 	display: none;
 }
 
@@ -31,10 +35,6 @@ header {
 	padding: 0;
 }
 
-#pqr-toggle-div {
-	display: flex;
-}
-
 @media only screen and (max-width: 750px) {
 	.menu {
 		  display: none;
@@ -44,9 +44,6 @@ header {
 		  top: 2.5rem;
 		  border: solid;
 		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	}
-	.menu-checkbox, #pqr-toggle-div {
-		display: block;
 	}
 
 	body:has(#menu-checkbox:checked) .menu {

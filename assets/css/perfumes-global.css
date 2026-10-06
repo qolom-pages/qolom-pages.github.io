@@ -45,6 +45,10 @@ h2 {
 	float: right;
 }
 
+#pqr-toggle-div {
+	display: flex;
+}
+
 body:has(#pqr-toggle:checked) > #main {
 	display: none;
 }
@@ -76,6 +80,10 @@ footer {
 	.pqr-toggle-div {
 		padding-bottom: 2%;
 		font-size: 1rem;
+	}
+	
+	.menu-checkbox, #pqr-toggle-div {
+		display: block;
 	}
 }
 
