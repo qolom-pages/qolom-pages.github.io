@@ -25,6 +25,7 @@ body {
 }
 
 .top-content {
+	display: block;
 	width: 80vw;
 }
 
