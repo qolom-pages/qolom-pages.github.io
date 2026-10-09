@@ -1,43 +1,21 @@
-.red-fragrance-colour {background-color: #B91825}
-.red-fragrance-colour-border {border: solid #B91825;}
-.red-fragrance--colour-font {color: #B91825}
+.red-fragrance {border: solid #B91825; background-color: #B91825}
 
-.yellow-fragrance-colour {background-color: #FFE72E}
-.yellow-fragrance-colour-border {border: solid #FFE72E}
-.yellow-fragrance--colour-font {color: #FFE72E}
+.yellow-fragrance {border: solid #FFE72E; background-color: #FFE72E}
 
-.green-fragrance-colour {background-color: #27AA64}
-.green-fragrance-colour-border {border: solid #27AA64}
-.green-fragrance--colour-font {color: #27AA64}
+.green-fragrance {border: solid #27AA64; background-color: #27AA64}
 
-.blue-fragrance-colour {background-color: #38BCF5}
-.blue-fragrance-colour-border {border: solid #38BCF5}
-.blue-fragrance--colour-font {color: #38BCF5}
+.blue-fragrance {border: solid #38BCF5; background-color: #38BCF5}
 
-.purple-fragrance-colour {background-color: #492F75}
-.purple-fragrance-colour-border {border: solid #492F75}
-.purple-fragrance--colour-font {color: #492F75}
+.purple-fragrance {border: solid #492F75; background-color: #492F75}
 
-.brown-fragrance-colour {background-color: #5A4030}
-.brown-fragrance-colour-border {border: solid #5A4030}
-.brown-fragrance--colour-font {color: #5A4030}
+.brown-fragrance {border: solid #5A4030; background-color: #5A4030}
 
-.pink-fragrance-colour {background-color: #FF8ACC}
-.pink-fragrance-colour-border {border: solid #FF8ACC}
-.pink-fragrance--colour-font {color: #FF8ACC}
+.pink-fragrance {border: solid #FF8ACC; background-color: #FF8ACC}
 
-.orange-fragrance-colour {background-color: #EB7814}
-.orange-fragrance-colour-border {border: solid #EB7814}
-.orange-fragrance--colour-font {color: #EB7814}
+.orange-fragrance {border: solid #EB7814; background-color: #EB7814}
 
-.grey-fragrance-colour {background-color: #ADADAD}
-.grey-fragrance-colour-border {border: solid #ADADAD}
-.grey-fragrance--colour-font {color: #ADADAD}
+.grey-fragrance {border: solid #ADADAD; background-color: #ADADAD}
 
-.atelier-fragrance-colour {background-color: #7F4124}
-.atelier-fragrance-colour-border {border: solid #7F4124}
-.atelier-fragrance--colour-font {color: #7F4124}
+.atelier-fragrance {border: solid #7F4124; background-color: #7F4124}
 
-.archive-fragrance-colour {background-color: #0A0614}
-.archive-fragrance-colour-border {border: solid #0A0614}
-.archive-fragrance--colour-font {color: #0A0614}
+.archive-fragrance {border: solid #0A0614; background-color: #0A0614}

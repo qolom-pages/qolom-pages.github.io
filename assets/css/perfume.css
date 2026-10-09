@@ -8,6 +8,7 @@ body {
 }
 
 .perfume-grid {
+	padding: 0% 10%;
 	width: 75vw;
 	display: grid;
 	grid-template-columns: 24% 24% 24% 24%;
@@ -27,6 +28,70 @@ body {
 .top-content {
 	display: block;
 	width: 80vw;
+	text-align: left;
+}
+
+.perfume-filter {
+	text-align: center;
+    font-size: 0.7rem;
+    float: right;
+    width: calc-size(auto, size + 1%);
+}
+
+#style.perfume-filter {
+	margin-right: 2%;
+}
+
+.archive, .atelier, .red, .pink, .yellow, .orange, .blue, .grey, .green, .brown, .purple {
+	display: none;
+}
+
+body:has(#all:checked) :is(.archive, .atelier, .red, .pink, .yellow, .orange, .blue, .grey, .green, .brown, .purple) {
+	display: block;
+}
+
+body:has(#archive:checked) :is(.archive) {
+	display: block;
+}
+
+body:has(#atelier:checked) :is(.atelier) {
+	display: block;
+}
+
+body:has(#red:checked) :is(.red) {
+	display: block;
+}
+
+body:has(#pink:checked) :is(.pink) {
+	display: block;
+}
+
+body:has(#yellow:checked) :is(.yellow) {
+	display: block;
+}
+
+body:has(#orange:checked) :is(.orange) {
+	display: block;
+}
+
+body:has(#blue:checked) :is(.blue) {
+	display: block;
+}
+
+body:has(#grey:checked) :is(.grey) {
+	display: block;
+}
+
+body:has(#green:checked) :is(.green) {
+	display: block;
+}
+
+body:has(#brown:checked) :is(.brown) {
+	display: block;
+}
+
+body:has(#purple:checked) :is(.purple) {
+	display: block;
 }
 
 .perfume-desc {
