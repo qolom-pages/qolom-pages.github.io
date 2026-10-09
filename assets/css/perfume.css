@@ -42,6 +42,12 @@ body {
 	height: 4vh;
 }
 
+@media only screen and (max-width: 750px) {
+	.menu-checkbox {
+		display: block;
+	}
+}
+
 @media screen and (max-width: 1010px) {
 	.perfume-grid {
 		width: 85vw;
