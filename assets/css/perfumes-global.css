@@ -20,6 +20,10 @@ body {
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+#atelier.menu {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 h1, h3 {
 	margin: 0;
 }
