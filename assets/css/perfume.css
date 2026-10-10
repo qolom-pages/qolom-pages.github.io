@@ -8,7 +8,7 @@ body {
 }
 
 .perfume-grid {
-	padding: 0% 10%;
+	padding: 0% 5%;
 	width: 75vw;
 	display: grid;
 	grid-template-columns: 24% 24% 24% 24%;
