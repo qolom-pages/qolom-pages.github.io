@@ -1,0 +1,82 @@
+@import url("global.css");
+body {
+	background: #FFF8F2;
+}
+
+.content {
+	display: block;
+	width: 80vw;
+	margin: auto;
+}
+
+.title {
+	text-align: center;
+}
+
+h1.title {
+	margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.entries {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 5%;
+	margin: auto;
+}
+
+.entry {
+	padding-bottom: 15%;
+}
+
+.entry * {
+	margin: auto;
+}
+
+.entry-name {
+	font-size: 0.5rem;
+}
+
+.subtext {
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.summary {
+	font-size: 0.6rem;
+	line-height: 1.4;
+	padding: 2% 0%;
+}
+
+.author {
+	font-size: 0.6rem;
+	text-align: center;
+	font-style: oblique;
+}
+
+@media only screen and (max-width: 750px) {
+	.menu-checkbox {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	.content {
+		width: 85vw;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.content {
+		width: 90vw;
+	}
+}
+
+footer {
+	display: block;
+	width: 95%;
+	font-size: 2vw;
+	text-align: center;
+	margin: auto;
+	padding-top: 3%;
+}
