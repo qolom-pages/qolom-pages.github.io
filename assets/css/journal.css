@@ -5,8 +5,8 @@ body {
 
 .content {
 	display: block;
-	width: 80vw;
 	margin: auto;
+	width: 80vw;
 }
 
 .title {
@@ -23,18 +23,20 @@ h1.title {
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 5%;
 	margin: auto;
+	padding-bottom: 5%;
 }
 
 .entry {
-	padding-bottom: 15%;
+	padding-bottom: 10%;
 }
 
 .entry * {
 	margin: auto;
+	border-style: none none solid none;
 }
 
 .entry-name {
-	font-size: 0.5rem;
+	font-size: 0.4rem;
 }
 
 .subtext {
@@ -43,7 +45,7 @@ h1.title {
 }
 
 .summary {
-	font-size: 0.6rem;
+	font-size: 0.5rem;
 	line-height: 1.4;
 	padding: 2% 0%;
 }
@@ -54,21 +56,34 @@ h1.title {
 	font-style: oblique;
 }
 
-@media only screen and (max-width: 750px) {
-	.menu-checkbox {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 1010px) {
-	.content {
-		width: 85vw;
-	}
-}
-
 @media screen and (max-width: 440px) {
 	.content {
 		width: 90vw;
+	}
+	
+	.entries {
+	grid-template-columns: 1fr 1fr;
+	}
+	
+		.entry-name {
+		font-size: 0.4rem;
+	}
+
+	.subtext {
+		font-size: 0.6rem;
+		font-weight: 500;
+	}
+
+	.summary {
+		font-size: 0.5rem;
+		line-height: 1.4;
+		padding: 2% 0%;
+	}
+
+	.author {
+		font-size: 0.4rem;
+		text-align: center;
+		font-style: oblique;
 	}
 }
 

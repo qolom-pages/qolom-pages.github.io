@@ -49,6 +49,10 @@ header {
 	body:has(#menu-checkbox:checked) .menu {
 		display: block;
 	}
+	
+	.menu-checkbox {
+		display: block;
+	}
 
 }
 
