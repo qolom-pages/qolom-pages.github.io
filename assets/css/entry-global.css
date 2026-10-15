@@ -1,0 +1,86 @@
+@import url("global.css");
+body {
+	background: #F6F4EF;
+}
+
+.top-content {
+	display: block;
+	width: 50vw;
+	text-align: left;
+	margin: auto;
+}
+
+.top-content p {
+	font-size: 18px;
+}
+
+.top-content h2 {
+	font-size: 22px;
+}
+
+.top-content h3 {
+	font-size: 20px;
+}
+
+.tldr {
+	margin: 3% 0%;
+	padding: 1%;
+	border: solid #7e8743;
+	font-style: italic;
+	font-size: 0.75rem;
+}
+
+.introduction {
+}
+
+.chapter {
+}
+
+.section {
+}
+
+.section > p {
+	margin-top: 0;
+}
+
+.section-title-text {
+	text-decoration: underline #7e8743;
+	text-underline-offset: 20%;
+}
+
+.section-title {
+	margin-bottom: 1%;
+}
+
+
+.section-title-link a {
+	font-size: 0.5rem;
+	text-decoration: none;
+}
+
+.title {
+	text-align: center;
+	margin-top: 2%;
+    margin-bottom: 2%;
+	text-decoration: underline #0057ba;
+	text-underline-offset: 20%;
+}
+
+@media screen and (max-width: 1200px) {
+	.top-content {
+		width: 90vw;
+	}
+}
+
+footer {
+	text-align: center;
+	width: 95%;
+	column-gap: 5%;
+	font-size: 0.5rem;
+}
+/*
+#c0b490 - ecru
+#0057ba - blue
+#b3e8c2 - green
+#7e8743 - citrine
+ */

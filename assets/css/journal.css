@@ -3,11 +3,7 @@ body {
 	background: #F6F4EF;
 }
 
-.subtext-link {
-	margin: auto;
-}
-
-h1.title {
+.title {
 	text-align: center;
 	margin-top: 2%;
     margin-bottom: 5%;
@@ -26,6 +22,18 @@ h1.title {
 	margin: auto;
 }
 
+.entry-text {
+	width: 70%;
+	float: right;
+}
+
+.thumbnail {
+	max-width: 25%;
+	float: left;
+	max-height: 100%;
+	aspect-ratio: 1 / 1;
+}
+
 .entry {
 	padding-bottom: 5%;
 }
@@ -37,6 +45,7 @@ h1.title {
 
 .category {
 	font-size: 0.4rem;
+	text-decoration: underline #7e8743;
 }
 
 .entry-name {
@@ -52,7 +61,7 @@ h1.title {
 }
 
 .author {
-	padding-left: 3%;
+	padding-left: 1%;
 	font-size: 0.4rem;
 	font-style: oblique;
 }
