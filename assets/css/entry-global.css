@@ -19,7 +19,7 @@ body {
 }
 
 .top-content h3 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .tldr {
@@ -37,15 +37,50 @@ body {
 }
 
 .section {
+	display: block;
+}
+
+.fig-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+figure {
+	margin-top: -2%;
+	display: inline-block;
+}
+
+figcaption {
+	font-size: 8px;
 }
 
 .section > p {
 	margin-top: 0;
 }
 
+.sub-section {
+	margin: auto;
+	width: 90%;
+}
+
+.sub-section > p {
+	font-size: 16px;
+	margin-top: 0;
+}
+
 .section-title-text {
 	text-decoration: underline #7e8743;
 	text-underline-offset: 20%;
+}
+
+.sub-section-title-text {
+
+}
+
+.sub-section-title {
+	margin: 0;
 }
 
 .section-title {
@@ -69,6 +104,27 @@ body {
 @media screen and (max-width: 1200px) {
 	.top-content {
 		width: 90vw;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	figure {
+		display: block;
+	}
+	.fig-center {
+		display: block;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.fig-center {
+		display: block;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
 	}
 }
 
