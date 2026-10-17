@@ -30,6 +30,19 @@ body {
 	font-size: 0.75rem;
 }
 
+.tldr-coffee-recipe {
+	padding: 1%;
+	border: solid #7e8743;
+	font-style: italic;
+	width: fit-content;
+	margin: auto;
+}
+
+.tldr-coffee-recipe p {
+	font-size: 0.6rem !important;
+	margin: auto;
+}
+
 .introduction {
 }
 
@@ -47,8 +60,11 @@ body {
 	margin: auto;
 }
 
-figure {
-	margin-top: -2%;
+.fig-center figure {
+	display: inline-block;
+}
+
+.gallery > figure > img {
 	display: inline-block;
 }
 
